@@ -16,7 +16,7 @@ namespace fibonacci.web.Pages
         
         public void OnGet()
         {
-            int number = 0;
+            int number = 15;
             Fiboo fiboonachi   =new Fiboo(number);
             Messeage =  $" Fiboonachi({number}):" + fiboonachi.result ;
         }
